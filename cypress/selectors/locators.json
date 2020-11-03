@@ -1,0 +1,9 @@
+{
+    "homeValueInputLocator": "input[name='homeValue']",
+    "OtherLiensInputLocator": "input[name='otherLiens']",
+    "mortgageBalanceInputLocator": "input[name='mortgageBalance']",
+    "calculateButtonLocator": "button.calc-button",
+    "titleMessageLocator": "span.calc-result__title",
+    "resultsAmountLocator": "span.calc-result__amount",
+    "calculationResultErrorLocator": "span.calc-result__error"
+}
