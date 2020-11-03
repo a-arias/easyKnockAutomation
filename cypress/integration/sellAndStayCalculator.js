@@ -44,7 +44,7 @@ context('Sell and Stay Leaseback functionality', () => {
       cy.get(data.calculateButtonLocator).contains("Calculate").click();
   
       //# Asserts results amount was calculated correctly.
-      cy.get(data.resultsAmountLocator).contains("56,000");
+      cy.get(data.resultsAmountLocator).contains("123,000");
   
       //#Perform  pixel perfect test on the screeen, making sure we did not break anything in the UI
       cy.percySnapshot();
@@ -73,7 +73,6 @@ context('Sell and Stay Leaseback functionality', () => {
     });
   
     it('should Not be able calculate cash proceeds using an Equal Liens amount as the home value', () => {
-      
       //#Fills home value input.
       cy.get(data.homeValueInputLocator).type("200,000");
   
@@ -91,7 +90,7 @@ context('Sell and Stay Leaseback functionality', () => {
   
       //#Perform  pixel perfect test on the screeen, making sure we did not break anything in the UI
       cy.percySnapshot();
-
+    });
 
     it('should Not be able calculate cash proceeds using a bigger Liens amount as the home value', () => {
       //#Fills home value input.
@@ -111,7 +110,6 @@ context('Sell and Stay Leaseback functionality', () => {
   
       //#Perform  pixel perfect test on the screeen, making sure we did not break anything in the UI
       cy.percySnapshot();
-    });
     });
   });
 });
