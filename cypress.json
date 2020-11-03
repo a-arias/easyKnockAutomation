@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://www.easyknock.com/programs/sellstay",
+  "chromeWebSecurity": false,
+  "video":false
+}
