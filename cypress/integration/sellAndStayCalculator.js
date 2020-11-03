@@ -42,7 +42,7 @@ context('Sell and Stay Leaseback functionality', () => {
     //#Clicks calculate button.
     cy.get(data.calculateButtonLocator).contains("Calculate").click();
 
-    //# Asserts results amount was calculated correctly.
+    //# Asserts calculation error message is displayed on the page
     cy.get(data.calculationResultErrorLocator).contains("Based on your inputs for home value, mortgage balance, or other liens, you may not qualify for an EasyKnock product. Fill out the qualification form to see if you qualify today.");
 
     //#Perform  pixel perfect test on the screeen, making sure we did not break anything in the UI
@@ -62,7 +62,7 @@ context('Sell and Stay Leaseback functionality', () => {
     //#Clicks calculate button.
     cy.get(data.calculateButtonLocator).contains("Calculate").click();
 
-    //# Asserts results amount was calculated correctly.
+    //# Asserts calculation error message is displayed on the page
     cy.get(data.calculationResultErrorLocator).contains("Based on your inputs for home value, mortgage balance, or other liens, you may not qualify for an EasyKnock product. Fill out the qualification form to see if you qualify today.");
 
     //#Perform  pixel perfect test on the screeen, making sure we did not break anything in the UI
@@ -82,7 +82,7 @@ context('Sell and Stay Leaseback functionality', () => {
     //#Clicks calculate button.
     cy.get(data.calculateButtonLocator).contains("Calculate").click();
 
-    //# Asserts results amount was calculated correctly.
+    //# Asserts calculation error message is displayed on the page
     cy.get(data.calculationResultErrorLocator).contains("Based on your inputs for home value, mortgage balance, or other liens, you may not qualify for an EasyKnock product. Fill out the qualification form to see if you qualify today.");
 
     //#Perform  pixel perfect test on the screeen, making sure we did not break anything in the UI
