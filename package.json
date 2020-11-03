@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/a-arias/easyKnockAutomation/issues"
   },
-  "homepage": "https://github.com/a-arias/easyKnockAutomation#readme"
+  "homepage": "https://github.com/a-arias/easyKnockAutomation#readme",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.2",
+    "cypress": "^5.5.0"
+  }
 }
