@@ -26,7 +26,9 @@
 import '@percy/cypress'
 
 Cypress.Commands.add('showMeLeaseBackCalculator', () => {
+  //visit home page.
   cy.visit('/');
  
+  //making sure home page loaded correctly.
   cy.get("h1").contains("Sell & Stay").should('exist');
 });
